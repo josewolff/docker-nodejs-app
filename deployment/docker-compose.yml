@@ -1,7 +1,7 @@
 version: "3"
 services: 
     node-app:
-        image: yolix/node-app:test
+        image: yolix/laserant-node:latest
         networks: 
             - app-network
     nginx:
